@@ -1,0 +1,17 @@
+{
+  "name": "preferred-languagues",
+  "version": "1.0.0",
+  "description": "Given a Github user name, use the Github API to extract statistics about what programming languages that users mostly codes with.",
+  "main": "index.js",
+  "bin" : {
+    "preferred-languages" : "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amelie Le Coz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
