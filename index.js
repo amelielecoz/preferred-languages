@@ -13,7 +13,7 @@ process.argv.slice(2).forEach(async(user) => {
     // //On résume les languages dans un seul objet result
     const result = sumLanguages(languages);
 
-    //Console l'output
+    //Log l'output
     console.log(`Language repartition for ${user}`);
     Object.keys(result).forEach(language => {
         console.log(`* ${result[language]}: ${language}`);
@@ -57,13 +57,3 @@ const sumLanguages = async(languages) => {
     });
     return result;
 }
-
-
-
-
-
-
-
-
-
-
